@@ -1,0 +1,6 @@
+This is just a file
+<<<<<<< HEAD
+This was add on rpi
+=======
+This was added on github
+>>>>>>> eb47bb296e6205952df96afb490de9e9477804eb
