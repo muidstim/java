@@ -5,12 +5,16 @@ public class JavaArray{
 
     String name = "Bacon Zero";
 
+    for (char c : name.toCharArray()){
+      System.out.println(c);
+    }
+
+
+
     for (int i = 0; i < name.length(); i++) {
       System.out.println(name.charAt(i));
     }
 
-    for (char c : name.toCharArray()){
-      System.out.println(c);
-    }
+
   }
 }
