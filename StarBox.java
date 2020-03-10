@@ -26,6 +26,18 @@ public class StarBox{
 
     Scanner s = new Scanner(System.in);
 
-    starBox(s.nextLine());
+    starBox2(s.nextLine());
+  }
+
+
+  //this method draws a box of 2 stars around any string
+  public static void starBox2(String text){
+    starLine(text.length() + 2);
+    starLine(text.length() + 2);
+
+    System.out.format("** %s **\n", text);
+
+    starLine(text.length() + 2);
+    starLine(text.length() + 2);
   }
 }
