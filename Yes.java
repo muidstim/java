@@ -2,14 +2,17 @@ import java.util.Scanner;
 
 public class Yes{
 
-  public static void ageDisplay(String name, int age) {
-      System.out.format("%s is %d years old", name, age);
-  }
 
 
   public static void main(String[] args){
-    ageDisplay("Bob",22);
+    Scanner s = new Scanner(System.in);
 
+    System.out.println("Enter:");
+    //int num = s.nextInt();
+
+    for(int i = s.nextInt(); i >= 0; i--){
+      System.out.format("\n%d", i);
+    }
   }
 
 }
